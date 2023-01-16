@@ -1,0 +1,18 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35rem;
+  padding: 10rem 0;
+  margin: 10rem 0;
+}
+.Label {
+  flex: 50%;
+  margin-right: 15rem;
+  font-size: 25rem;
+  color: grey;
+}
+.Value {
+  flex: 50%;
+  text-align: left;
+}

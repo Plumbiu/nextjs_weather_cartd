@@ -1,0 +1,12 @@
+.Continaer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.LiveChartContainer {
+  width: 400rem;
+}
+.Content {
+  flex: 1;
+  text-align: center;
+}

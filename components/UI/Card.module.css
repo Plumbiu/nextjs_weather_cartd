@@ -1,0 +1,29 @@
+.Container {
+  height: 200rem;
+  padding: 10rem;
+  margin: 30rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ContentContainer {
+  text-align: center;
+}
+.Text {
+  padding: 10rem 0;
+  font-size: 75rem;
+}
+.MidContentContainer {
+  text-align: center;
+  font-size: 26rem;
+  color: #888;
+  display: flex;
+  max-width: 350rem;
+  flex-flow: column;
+  justify-content: flex-end;
+  transform: translateY(10rem);
+}
+.midContent {
+  margin: 5rem 25rem;
+  text-align: left;
+}

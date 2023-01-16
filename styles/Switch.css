@@ -1,0 +1,14 @@
+.ant-switch-handle {
+  top: 0!important;
+  width: 40rem!important;
+  height: 40rem!important;
+}
+.ant-switch-handle::before {
+  border-radius: 50%!important;
+}
+.ant-switch-checked .ant-switch-handle {
+  inset-inline-start: calc(100% - 40rem)!important;
+}
+.ant-switch-checked {
+  background: #333!important;
+}
